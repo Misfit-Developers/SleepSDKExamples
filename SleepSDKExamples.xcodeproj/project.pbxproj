@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFACECB51C0EE60400EEFEE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACECB41C0EE60400EEFEE1 /* main.m */; };
+		DFACECBE1C0EE60400EEFEE1 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACECBC1C0EE60400EEFEE1 /* Main2.storyboard */; };
+		DFACECC01C0EE60400EEFEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFACECBF1C0EE60400EEFEE1 /* Assets.xcassets */; };
+		DFACECC31C0EE60400EEFEE1 /* LaunchScreen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACECC11C0EE60400EEFEE1 /* LaunchScreen2.storyboard */; };
+		DFACECD31C0EE6CA00EEFEE1 /* AlarmSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACECC91C0EE6CA00EEFEE1 /* AlarmSetupViewController.m */; };
+		DFACECD41C0EE6CA00EEFEE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACECCB1C0EE6CA00EEFEE1 /* AppDelegate.m */; };
+		DFACECD51C0EE6CA00EEFEE1 /* Caffeine.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DFACECCC1C0EE6CA00EEFEE1 /* Caffeine.m4a */; };
+		DFACECD61C0EE6CA00EEFEE1 /* GradientBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACECCE1C0EE6CA00EEFEE1 /* GradientBackground.m */; };
+		DFACECD71C0EE6CA00EEFEE1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACECD01C0EE6CA00EEFEE1 /* MainViewController.m */; };
+		DFACECD81C0EE6CA00EEFEE1 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACECD21C0EE6CA00EEFEE1 /* SettingsViewController.m */; };
+		DFACECDE1C0EE70D00EEFEE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACECDA1C0EE70D00EEFEE1 /* LaunchScreen.storyboard */; };
+		DFACECDF1C0EE70D00EEFEE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACECDC1C0EE70D00EEFEE1 /* Main.storyboard */; };
+		DFACECE11C0EE87200EEFEE1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFACECE01C0EE87200EEFEE1 /* CoreBluetooth.framework */; };
+		DFACECE51C0EE8CD00EEFEE1 /* helpIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACECE41C0EE8CD00EEFEE1 /* helpIcon.png */; };
+		DFACECE71C0EE8D600EEFEE1 /* MisfitSleepSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFACECE61C0EE8D600EEFEE1 /* MisfitSleepSDK.framework */; };
+		DFACECEA1C0EE91300EEFEE1 /* MusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACECE91C0EE91300EEFEE1 /* MusicManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFACECB11C0EE60400EEFEE1 /* MusicAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFACECB41C0EE60400EEFEE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFACECBD1C0EE60400EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main2.storyboard; sourceTree = "<group>"; };
+		DFACECBF1C0EE60400EEFEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFACECC21C0EE60400EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen2.storyboard; sourceTree = "<group>"; };
+		DFACECC41C0EE60400EEFEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFACECC81C0EE6CA00EEFEE1 /* AlarmSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmSetupViewController.h; sourceTree = "<group>"; };
+		DFACECC91C0EE6CA00EEFEE1 /* AlarmSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmSetupViewController.m; sourceTree = "<group>"; };
+		DFACECCA1C0EE6CA00EEFEE1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFACECCB1C0EE6CA00EEFEE1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFACECCC1C0EE6CA00EEFEE1 /* Caffeine.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Caffeine.m4a; sourceTree = "<group>"; };
+		DFACECCD1C0EE6CA00EEFEE1 /* GradientBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GradientBackground.h; path = MusicAlarm/GradientBackground.h; sourceTree = "<group>"; };
+		DFACECCE1C0EE6CA00EEFEE1 /* GradientBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GradientBackground.m; path = MusicAlarm/GradientBackground.m; sourceTree = "<group>"; };
+		DFACECCF1C0EE6CA00EEFEE1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DFACECD01C0EE6CA00EEFEE1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DFACECD11C0EE6CA00EEFEE1 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		DFACECD21C0EE6CA00EEFEE1 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		DFACECDB1C0EE70D00EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFACECDD1C0EE70D00EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFACECE01C0EE87200EEFEE1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		DFACECE41C0EE8CD00EEFEE1 /* helpIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpIcon.png; sourceTree = "<group>"; };
+		DFACECE61C0EE8D600EEFEE1 /* MisfitSleepSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MisfitSleepSDK.framework; sourceTree = "<group>"; };
+		DFACECE81C0EE91300EEFEE1 /* MusicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicManager.h; sourceTree = "<group>"; };
+		DFACECE91C0EE91300EEFEE1 /* MusicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFACECAE1C0EE60400EEFEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFACECE71C0EE8D600EEFEE1 /* MisfitSleepSDK.framework in Frameworks */,
+				DFACECE11C0EE87200EEFEE1 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFACEC8A1C0EE5F600EEFEE1 = {
+			isa = PBXGroup;
+			children = (
+				DFACECE61C0EE8D600EEFEE1 /* MisfitSleepSDK.framework */,
+				DFACECE01C0EE87200EEFEE1 /* CoreBluetooth.framework */,
+				DFACECB21C0EE60400EEFEE1 /* MusicAlarm */,
+				DFACEC941C0EE5F600EEFEE1 /* Products */,
+				DFACECD91C0EE6D800EEFEE1 /* Common */,
+			);
+			sourceTree = "<group>";
+		};
+		DFACEC941C0EE5F600EEFEE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFACECB11C0EE60400EEFEE1 /* MusicAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFACECB21C0EE60400EEFEE1 /* MusicAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				DFACECE81C0EE91300EEFEE1 /* MusicManager.h */,
+				DFACECE91C0EE91300EEFEE1 /* MusicManager.m */,
+				DFACECDA1C0EE70D00EEFEE1 /* LaunchScreen.storyboard */,
+				DFACECDC1C0EE70D00EEFEE1 /* Main.storyboard */,
+				DFACECC81C0EE6CA00EEFEE1 /* AlarmSetupViewController.h */,
+				DFACECC91C0EE6CA00EEFEE1 /* AlarmSetupViewController.m */,
+				DFACECCA1C0EE6CA00EEFEE1 /* AppDelegate.h */,
+				DFACECCB1C0EE6CA00EEFEE1 /* AppDelegate.m */,
+				DFACECCF1C0EE6CA00EEFEE1 /* MainViewController.h */,
+				DFACECD01C0EE6CA00EEFEE1 /* MainViewController.m */,
+				DFACECD11C0EE6CA00EEFEE1 /* SettingsViewController.h */,
+				DFACECD21C0EE6CA00EEFEE1 /* SettingsViewController.m */,
+				DFACECBC1C0EE60400EEFEE1 /* Main2.storyboard */,
+				DFACECBF1C0EE60400EEFEE1 /* Assets.xcassets */,
+				DFACECC11C0EE60400EEFEE1 /* LaunchScreen2.storyboard */,
+				DFACECC41C0EE60400EEFEE1 /* Info.plist */,
+				DFACECB31C0EE60400EEFEE1 /* Supporting Files */,
+			);
+			path = MusicAlarm;
+			sourceTree = "<group>";
+		};
+		DFACECB31C0EE60400EEFEE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFACECE41C0EE8CD00EEFEE1 /* helpIcon.png */,
+				DFACECCC1C0EE6CA00EEFEE1 /* Caffeine.m4a */,
+				DFACECB41C0EE60400EEFEE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFACECD91C0EE6D800EEFEE1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DFACECCD1C0EE6CA00EEFEE1 /* GradientBackground.h */,
+				DFACECCE1C0EE6CA00EEFEE1 /* GradientBackground.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFACECB01C0EE60400EEFEE1 /* MusicAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFACECC51C0EE60400EEFEE1 /* Build configuration list for PBXNativeTarget "MusicAlarm" */;
+			buildPhases = (
+				DFACECAD1C0EE60400EEFEE1 /* Sources */,
+				DFACECAE1C0EE60400EEFEE1 /* Frameworks */,
+				DFACECAF1C0EE60400EEFEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicAlarm;
+			productName = MusicAlarm;
+			productReference = DFACECB11C0EE60400EEFEE1 /* MusicAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFACEC8B1C0EE5F600EEFEE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = misfitwearables;
+				TargetAttributes = {
+					DFACECB01C0EE60400EEFEE1 = {
+						CreatedOnToolsVersion = 7.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DFACEC8E1C0EE5F600EEFEE1 /* Build configuration list for PBXProject "SleepSDKExamples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFACEC8A1C0EE5F600EEFEE1;
+			productRefGroup = DFACEC941C0EE5F600EEFEE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFACECB01C0EE60400EEFEE1 /* MusicAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFACECAF1C0EE60400EEFEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFACECC31C0EE60400EEFEE1 /* LaunchScreen2.storyboard in Resources */,
+				DFACECD51C0EE6CA00EEFEE1 /* Caffeine.m4a in Resources */,
+				DFACECE51C0EE8CD00EEFEE1 /* helpIcon.png in Resources */,
+				DFACECC01C0EE60400EEFEE1 /* Assets.xcassets in Resources */,
+				DFACECDF1C0EE70D00EEFEE1 /* Main.storyboard in Resources */,
+				DFACECDE1C0EE70D00EEFEE1 /* LaunchScreen.storyboard in Resources */,
+				DFACECBE1C0EE60400EEFEE1 /* Main2.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFACECAD1C0EE60400EEFEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFACECD31C0EE6CA00EEFEE1 /* AlarmSetupViewController.m in Sources */,
+				DFACECD61C0EE6CA00EEFEE1 /* GradientBackground.m in Sources */,
+				DFACECB51C0EE60400EEFEE1 /* main.m in Sources */,
+				DFACECD81C0EE6CA00EEFEE1 /* SettingsViewController.m in Sources */,
+				DFACECEA1C0EE91300EEFEE1 /* MusicManager.m in Sources */,
+				DFACECD71C0EE6CA00EEFEE1 /* MainViewController.m in Sources */,
+				DFACECD41C0EE6CA00EEFEE1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFACECBC1C0EE60400EEFEE1 /* Main2.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFACECBD1C0EE60400EEFEE1 /* Base */,
+			);
+			name = Main2.storyboard;
+			sourceTree = "<group>";
+		};
+		DFACECC11C0EE60400EEFEE1 /* LaunchScreen2.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFACECC21C0EE60400EEFEE1 /* Base */,
+			);
+			name = LaunchScreen2.storyboard;
+			sourceTree = "<group>";
+		};
+		DFACECDA1C0EE70D00EEFEE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFACECDB1C0EE70D00EEFEE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DFACECDC1C0EE70D00EEFEE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFACECDD1C0EE70D00EEFEE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFACECA81C0EE5F600EEFEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFACECA91C0EE5F600EEFEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFACECC61C0EE60400EEFEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MusicAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misfit.MusicAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFACECC71C0EE60400EEFEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MusicAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misfit.MusicAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFACEC8E1C0EE5F600EEFEE1 /* Build configuration list for PBXProject "SleepSDKExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFACECA81C0EE5F600EEFEE1 /* Debug */,
+				DFACECA91C0EE5F600EEFEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFACECC51C0EE60400EEFEE1 /* Build configuration list for PBXNativeTarget "MusicAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFACECC61C0EE60400EEFEE1 /* Debug */,
+				DFACECC71C0EE60400EEFEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFACEC8B1C0EE5F600EEFEE1 /* Project object */;
+}
