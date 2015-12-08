@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF32DF581C16C9C500D8EDC3 /* LaunchScreen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF32DF561C16C9C500D8EDC3 /* LaunchScreen2.storyboard */; };
+		DF32DF591C16C9C500D8EDC3 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF32DF571C16C9C500D8EDC3 /* Main2.storyboard */; };
 		DFACECB51C0EE60400EEFEE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACECB41C0EE60400EEFEE1 /* main.m */; };
-		DFACECBE1C0EE60400EEFEE1 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACECBC1C0EE60400EEFEE1 /* Main2.storyboard */; };
 		DFACECC01C0EE60400EEFEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFACECBF1C0EE60400EEFEE1 /* Assets.xcassets */; };
-		DFACECC31C0EE60400EEFEE1 /* LaunchScreen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACECC11C0EE60400EEFEE1 /* LaunchScreen2.storyboard */; };
 		DFACECD31C0EE6CA00EEFEE1 /* AlarmSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACECC91C0EE6CA00EEFEE1 /* AlarmSetupViewController.m */; };
 		DFACECD41C0EE6CA00EEFEE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACECCB1C0EE6CA00EEFEE1 /* AppDelegate.m */; };
 		DFACECD51C0EE6CA00EEFEE1 /* Caffeine.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DFACECCC1C0EE6CA00EEFEE1 /* Caffeine.m4a */; };
@@ -26,11 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF32DF561C16C9C500D8EDC3 /* LaunchScreen2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen2.storyboard; path = ../../../.Trash/LaunchScreen2.storyboard; sourceTree = "<group>"; };
+		DF32DF571C16C9C500D8EDC3 /* Main2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main2.storyboard; path = ../../../.Trash/Main2.storyboard; sourceTree = "<group>"; };
 		DFACECB11C0EE60400EEFEE1 /* MusicAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFACECB41C0EE60400EEFEE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DFACECBD1C0EE60400EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main2.storyboard; sourceTree = "<group>"; };
 		DFACECBF1C0EE60400EEFEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DFACECC21C0EE60400EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen2.storyboard; sourceTree = "<group>"; };
 		DFACECC41C0EE60400EEFEE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFACECC81C0EE6CA00EEFEE1 /* AlarmSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmSetupViewController.h; sourceTree = "<group>"; };
 		DFACECC91C0EE6CA00EEFEE1 /* AlarmSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmSetupViewController.m; sourceTree = "<group>"; };
@@ -99,9 +99,9 @@
 				DFACECD01C0EE6CA00EEFEE1 /* MainViewController.m */,
 				DFACECD11C0EE6CA00EEFEE1 /* SettingsViewController.h */,
 				DFACECD21C0EE6CA00EEFEE1 /* SettingsViewController.m */,
-				DFACECBC1C0EE60400EEFEE1 /* Main2.storyboard */,
+				DF32DF561C16C9C500D8EDC3 /* LaunchScreen2.storyboard */,
+				DF32DF571C16C9C500D8EDC3 /* Main2.storyboard */,
 				DFACECBF1C0EE60400EEFEE1 /* Assets.xcassets */,
-				DFACECC11C0EE60400EEFEE1 /* LaunchScreen2.storyboard */,
 				DFACECC41C0EE60400EEFEE1 /* Info.plist */,
 				DFACECB31C0EE60400EEFEE1 /* Supporting Files */,
 			);
@@ -189,13 +189,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFACECC31C0EE60400EEFEE1 /* LaunchScreen2.storyboard in Resources */,
 				DFACECD51C0EE6CA00EEFEE1 /* Caffeine.m4a in Resources */,
 				DFACECE51C0EE8CD00EEFEE1 /* helpIcon.png in Resources */,
 				DFACECC01C0EE60400EEFEE1 /* Assets.xcassets in Resources */,
+				DF32DF581C16C9C500D8EDC3 /* LaunchScreen2.storyboard in Resources */,
 				DFACECDF1C0EE70D00EEFEE1 /* Main.storyboard in Resources */,
 				DFACECDE1C0EE70D00EEFEE1 /* LaunchScreen.storyboard in Resources */,
-				DFACECBE1C0EE60400EEFEE1 /* Main2.storyboard in Resources */,
+				DF32DF591C16C9C500D8EDC3 /* Main2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,22 +219,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DFACECBC1C0EE60400EEFEE1 /* Main2.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFACECBD1C0EE60400EEFEE1 /* Base */,
-			);
-			name = Main2.storyboard;
-			sourceTree = "<group>";
-		};
-		DFACECC11C0EE60400EEFEE1 /* LaunchScreen2.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DFACECC21C0EE60400EEFEE1 /* Base */,
-			);
-			name = LaunchScreen2.storyboard;
-			sourceTree = "<group>";
-		};
 		DFACECDA1C0EE70D00EEFEE1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
