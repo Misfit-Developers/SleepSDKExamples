@@ -21,8 +21,8 @@
 		DFACECDF1C0EE70D00EEFEE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFACECDC1C0EE70D00EEFEE1 /* Main.storyboard */; };
 		DFACECE11C0EE87200EEFEE1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFACECE01C0EE87200EEFEE1 /* CoreBluetooth.framework */; };
 		DFACECE51C0EE8CD00EEFEE1 /* helpIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACECE41C0EE8CD00EEFEE1 /* helpIcon.png */; };
-		DFACECE71C0EE8D600EEFEE1 /* MisfitSleepSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFACECE61C0EE8D600EEFEE1 /* MisfitSleepSDK.framework */; };
 		DFACECEA1C0EE91300EEFEE1 /* MusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFACECE91C0EE91300EEFEE1 /* MusicManager.m */; };
+		DFACECF91C119F7A00EEFEE1 /* MisfitSleepSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFACECF81C119F7A00EEFEE1 /* MisfitSleepSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,9 +47,9 @@
 		DFACECDD1C0EE70D00EEFEE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFACECE01C0EE87200EEFEE1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		DFACECE41C0EE8CD00EEFEE1 /* helpIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpIcon.png; sourceTree = "<group>"; };
-		DFACECE61C0EE8D600EEFEE1 /* MisfitSleepSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MisfitSleepSDK.framework; sourceTree = "<group>"; };
 		DFACECE81C0EE91300EEFEE1 /* MusicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicManager.h; sourceTree = "<group>"; };
 		DFACECE91C0EE91300EEFEE1 /* MusicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicManager.m; sourceTree = "<group>"; };
+		DFACECF81C119F7A00EEFEE1 /* MisfitSleepSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MisfitSleepSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFACECE71C0EE8D600EEFEE1 /* MisfitSleepSDK.framework in Frameworks */,
+				DFACECF91C119F7A00EEFEE1 /* MisfitSleepSDK.framework in Frameworks */,
 				DFACECE11C0EE87200EEFEE1 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,7 +68,7 @@
 		DFACEC8A1C0EE5F600EEFEE1 = {
 			isa = PBXGroup;
 			children = (
-				DFACECE61C0EE8D600EEFEE1 /* MisfitSleepSDK.framework */,
+				DFACECF81C119F7A00EEFEE1 /* MisfitSleepSDK.framework */,
 				DFACECE01C0EE87200EEFEE1 /* CoreBluetooth.framework */,
 				DFACECB21C0EE60400EEFEE1 /* MusicAlarm */,
 				DFACEC941C0EE5F600EEFEE1 /* Products */,
