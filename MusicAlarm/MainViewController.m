@@ -224,7 +224,7 @@
 -(void)connectToMisfit
 {
     [[MisfitSleepSDK sharedInstance] connectWithAppId:@"musicalarm"
-                                            appSecret:@"xakQTasL0RdlLaOB5GLG6KfQdl7E5xLR"
+                                            appSecret:@"YaI6HUsT8s014gI3IvV0OkLy6eSpydVA"
                                            completion:^(NSDictionary * data, MFHError* error)
      {
          if (error)
